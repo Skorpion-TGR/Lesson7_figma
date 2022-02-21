@@ -1,0 +1,165 @@
+@import "null.css";
+
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+
+body{
+   font-family: "Lato", sans-serif;
+   font-size: 16px;
+   color: #424551;
+}
+
+.post{
+   min-height: 100%;
+	overflow: hidden;
+   min-width: 100%;
+}
+
+.article{
+   max-width: 810px;
+   margin: 0 auto;
+   padding: 190px 0 0 0;
+   /* margin: 190px 0 0 345px; */
+}
+
+.post-header{
+   min-width: 200px;
+   min-height: 120px;
+   margin: 0 0 40px 0;
+}
+
+.hr{
+   font-size: 46px;
+   font-weight: 900;
+   line-height: 60px;
+   color: #1E212C;
+   /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+   margin: 0 0 26px 0;
+}
+
+.hr-h{
+   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.meta {
+   color: #787A80;
+}
+.date {
+   background: url('../img/Calendar.png')0 no-repeat;
+   margin: 0 24px 0 0;
+   padding: 0 0 0 24px;
+}
+.clock {
+   background: url('../img/Clock.png')0 no-repeat;
+   padding: 0 0 0 24px;
+}
+
+/* .main{} */
+
+img{
+   display: inline-block;
+   max-width: 100%;
+   margin: 0 0 60px 0;
+}
+
+/* .text{} */
+
+p{
+   line-height: 26px;
+   /* margin: 0 0 24px 0; */
+}
+
+.vulputate{
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 30px;
+   color: #1E212C;
+   margin: 0 0 24px 0;
+}
+
+.at{
+   margin: 0 0 48px 0;
+}
+
+.at-first{
+   margin: 0 0 16px 0;
+}
+
+/* .at-second{
+} */
+
+.lorem{
+   background: url('../img/braces.png') top left no-repeat;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 30px;
+   color: #1E212C;
+   margin: 0 0 48px 0;
+   /* padding: 24px 0 24px 58px; */
+}
+
+.lorem-text{
+   padding: 0 0 0 58px;
+}
+
+.mauris{
+   margin: 0 0 24px 0;
+}
+
+.list{
+   margin: 0 0 24px 0;
+}
+
+/* .list li{
+} */
+
+.list-line{
+   background: url('../img/check.png') 0 5px no-repeat;
+   padding: 0 0 0 32px;
+}
+
+.list-line-text{
+   margin: 0 0 4px 0;
+}
+
+.list-line-textlast{
+   margin: 0;
+}
+
+.enim{
+   margin: 0 0 60px 0;
+}
+
+.footer {
+   max-width: 390px;
+}
+/* .about { */
+/* } */
+.heading {
+   margin: 0 0 40px 0;
+}
+.who {
+   margin: 0 0 8px 0;
+   text-transform: uppercase;
+   font-size: 16px;
+   line-height: 24px;
+}
+.list-f{
+   margin: 0 0 48px 0;
+}
+.f{
+   margin: 0 0 12px 0;
+}
+.button {
+   max-width: 161px;
+   /* height: 44px; */
+   background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+   border-radius: 4px;
+   padding: 0 32px;
+}
+.button-text {
+   line-height: 44px;
+   font-size: 14px;
+   color: #FFFFFF;
+   font-weight: 700;
+   /* text-align: center; */
+}
